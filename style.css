@@ -1,0 +1,172 @@
+* {
+	padding: 0;
+   	margin: 0;
+  	box-sizing: border-box;
+  	text-decoration: none;
+  	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+body {
+  	width: 100%;
+  	min-height: 100vh;
+   	background-color: #fafafa;
+	margin: 0;
+	padding: 0;
+   	display: flex;
+   	justify-content: center;
+}
+.instagram-wrapper {
+    	display: flex;
+   	align-items: center;
+   	justify-content: space-between;
+   	width: 778px;
+   	height: auto;
+}
+.instagram-phone {
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+   	width: calc(100% - 370px);
+}
+.instagram-phone img {
+    	width: 100%;
+	height: auto;
+}
+.instagram-continue {
+    	display: flex;
+    	align-items: center; /* horizontal */
+    	justify-content: space-around; /* vertical */
+    	flex-direction: column;
+    	width: 348px;
+    	min-height: 34rem;
+	margin-top: 30px;
+}
+.group {
+    	display: flex;
+    	justify-content: space-between;
+    	align-items: center;
+    	flex-direction: column;
+    	background-color: #ffffff;
+    	width: 348px;
+    	padding: 40px 0 30px 0;
+    	border: 1px solid lightgray;
+}
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+.instagram-logo {
+    height: 3rem;
+}
+.group input[type=text], .group input[type=password] {
+	width: 80%;
+	height: auto;
+	padding: 10px 10px 10px 10px;
+	background: #fafafa;
+	border: 1px solid lightgray;
+	font-size: 11px;
+	border-radius: 3px;
+}
+.group input[type=text] {
+	margin-top: 30px;
+}
+.group input[type=password] {
+	margin-top: 10px;
+}
+.group input[type=submit] {
+	width: 80%;
+	height: auto;
+	margin-top: 10px;
+	padding: 7px 10px 7px 10px;
+	background: #0095f6;
+	border: 0;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 3px;
+	color: #ffffff;
+	cursor: pointer;
+}
+.group .or-bar {
+	width: 80%;
+	height: auto;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.group .or-bar .bar {
+	width: calc(50% - 30px);
+	height: 1px;
+	background-color: #dbdbdb;
+}
+.group .or-bar .or {
+	text-align: center;
+	width: 60px;
+	font-size: 16px;
+	color: #8e8e8e;
+}
+.group .facebook {
+	width: auto;
+	height: auto;
+	margin-top: 30px;
+	padding: 0 0 0 25px;
+	background-image: url("img/facebook.png");
+	background-repeat: no-repeat;
+	background-size: 15px auto;
+	background-position: left center;
+	font-size: 14px;
+	color: #385185;
+	font-weight: 500;
+}
+.group .fogot {
+	width: auto;
+	height: auto;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #00376b;
+	font-weight: 500;
+	text-align: center;
+}
+.sign-up {
+    	background-color: #ffffff;
+    	width: 348px;
+    	padding: 20px 0 20px 0;
+    	border: 1px solid lightgray;
+	margin-top: 15px;
+	text-align: center;
+	font-size: 14px;
+}
+.sign-up > a {
+    	color: #0095f6;
+	font-weight: 600;
+}
+.get-the-app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 1.3rem 0;
+}
+.get-the-app > p {
+	font-size: 14px;
+}
+.download {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+}
+.app-download {
+	height: 40px;
+    	width: 150px;
+    	background-size: 136px 40px;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.app-download:nth-child(1) {
+    	background-image: url('./img/apple-button.png');
+}
+.app-download:nth-child(2) {
+    	background-image: url('./img/googleplay-button.png');
+}
